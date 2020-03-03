@@ -243,4 +243,5 @@ class Int_grafica(object):
         list_categ.pack(side = tk.TOP, fill = tk.BOTH, expand = 1)
         scrollbar.config(command = list_categ.yview)
 
+
 Int_grafica()
